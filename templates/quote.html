@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your quote</title>
+  </head>
+{% block body %}
+<h1 style="text-align: center"> Your quote:  </h1>
+  <div>
+    <ul style="list-style: none;"
+      <h3 class="mt-0 mb-1">Your quote: {{ info[0]['quote'].capitalize() }} </h3> <br>
+      - {{ info[0]['author'] }}
+  </div>
+  {% endblock %}
+</html>

@@ -1,0 +1,13 @@
+{
+    "users": [
+        {
+            "uname": "user1",
+            "pass": "$2b$12$8fOcVcRH6Jg2hIXkuIEmo.FDrG7lgc/1iGusBj1pOjuFQrrrdN9/m",
+            "email": "121@e",
+            "settings": {
+                "quote-ping": true
+            },
+            "reminders": []
+        }
+    ]
+}
